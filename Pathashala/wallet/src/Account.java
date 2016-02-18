@@ -2,11 +2,12 @@ public class Account {
     private double balance;
     private Notifier notifier;
     private String email;
-
-    Account(double balance, Notifier notifier, String email) {
+    private String auditorEmail;
+    Account(double balance, Notifier notifier, String customerEmail, String auditorEmail) {
         this.balance = balance;
         this.notifier = notifier;
-        this.email = email;
+        this.email = customerEmail;
+        this.auditorEmail=auditorEmail;
     }
 
     public void putMoney(double moneyToBeAdded) throws NegativeMoneyInputException {
@@ -20,13 +21,18 @@ public class Account {
         return balance;
     }
 
-    public double takeMoney(double moneyToBeWithdrawn) throws NegativeMoneyInputException {
+    public double takeMoney(double moneyToBeWithdrawn) throws NegativeMoneyInputException ,NotificationFailedException{
         if (moneyToBeWithdrawn <= 0.0)
             throw new NegativeMoneyInputException("Unsupportd Input");
         this.balance -= moneyToBeWithdrawn;
         if(balance<0)
         {
-            notifier.notifyViaEmail(this.email,this.balance);
+            if(!notifier.notifyViaEmail(this.email, this.balance))
+                throw new NotificationFailedException("Owner Did not get notified");
+
+            if(!notifier.notifyViaEmail(this.auditorEmail, this.balance))
+                throw new NotificationFailedException("Auditor Did not get notified");
+
 
         }
         return moneyToBeWithdrawn;

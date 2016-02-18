@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ec2c279-b35e-4567-980a-50241987bfb5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NotificationFailedException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/wallet/Account.class" afterPath="$PROJECT_DIR$/out/production/wallet/Account.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/wallet/AccountTest.class" afterPath="$PROJECT_DIR$/out/test/wallet/AccountTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Account.java" afterPath="$PROJECT_DIR$/src/Account.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/AccountTest.java" afterPath="$PROJECT_DIR$/test/AccountTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wallet.iml" afterPath="$PROJECT_DIR$/wallet.iml" />
     </list>
@@ -27,12 +30,12 @@
     <favorites_list name="wallet" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="AccountTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/AccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7563694">
-              <caret line="112" column="69" selection-start-line="112" selection-start-column="69" selection-end-line="112" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.64810926">
+              <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +67,21 @@
         <entry file="file://$PROJECT_DIR$/src/Account.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationFailedException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NotificationFailedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +125,9 @@
         <option value="$PROJECT_DIR$/src/Wallet.java" />
         <option value="$PROJECT_DIR$/src/EmailHandler.java" />
         <option value="$PROJECT_DIR$/src/Notifier.java" />
-        <option value="$PROJECT_DIR$/src/Account.java" />
         <option value="$PROJECT_DIR$/src/com/trial/Temp.java" />
+        <option value="$PROJECT_DIR$/src/NotificationFailedException.java" />
+        <option value="$PROJECT_DIR$/src/Account.java" />
         <option value="$PROJECT_DIR$/test/AccountTest.java" />
       </list>
     </option>
@@ -226,7 +243,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.OwnerCanWithdraw$10FromAccountWith$0">
+  <component name="RunManager" selected="JUnit.AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes">
     <configuration default="false" name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="wallet" />
@@ -236,48 +253,6 @@
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="AccountTest.ifNoticicationFailsthrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="wallet" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="ifNoticicationFailsthrowException" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="AccountTest.OwnerCanWithdraw$50and$20FromAccountWith$100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="wallet" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="OwnerCanWithdraw$50and$20FromAccountWith$100" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -319,6 +294,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
       <option name="METHOD_NAME" value="OwnerCanWithdraw$10FromAccountWith$0" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccountTest.OwnerCanOverWithdrawButAuditorDidntGetNotified" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="wallet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
+      <option name="METHOD_NAME" value="OwnerCanOverWithdrawButAuditorDidntGetNotified" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="wallet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
+      <option name="METHOD_NAME" value="OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -590,18 +607,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AccountTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountTest.ifNoticicationFailsthrowException" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$50and$20FromAccountWith$100" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$100FromWalletWith$50" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$10FromAccountWith$0" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$100FromWalletWith$50" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$10FromAccountWith$0" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanOverWithdrawButAuditorDidntGetNotified" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$10FromAccountWith$0" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.AccountTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$100FromWalletWith$50" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountTest.ifNoticicationFailsthrowException" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$50and$20FromAccountWith$100" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$10FromAccountWith$0" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanWithdraw$100FromWalletWith$50" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountTest.OwnerCanOverWithdrawButAuditorDidntGetNotified" />
       </list>
     </recent_temporary>
   </component>
@@ -620,35 +637,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest - 2016.02.18 at 07h 37m 23s.xml">
+    <history-entry file="AccountTest - 2016.02.18 at 14h 35m 57s.xml">
       <configuration name="AccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest - 2016.02.18 at 08h 43m 21s.xml">
+    <history-entry file="AccountTest - 2016.02.18 at 14h 45m 08s.xml">
       <configuration name="AccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest - 2016.02.18 at 08h 44m 11s.xml">
-      <configuration name="AccountTest" configurationId="JUnit" />
+    <history-entry file="AccountTest_OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes - 2016.02.18 at 14h 45m 57s.xml">
+      <configuration name="AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest - 2016.02.18 at 08h 44m 20s.xml">
-      <configuration name="AccountTest" configurationId="JUnit" />
+    <history-entry file="AccountTest_OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes - 2016.02.18 at 14h 46m 17s.xml">
+      <configuration name="AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_OwnerCanWithdraw$100FromWalletWith$50 - 2016.02.17 at 19h 59m 07s.xml">
-      <configuration name="AccountTest.OwnerCanWithdraw$100FromWalletWith$50" configurationId="JUnit" />
+    <history-entry file="AccountTest_OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes - 2016.02.18 at 14h 46m 37s.xml">
+      <configuration name="AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_OwnerCanWithdraw$100FromWalletWith$50 - 2016.02.17 at 19h 59m 40s.xml">
-      <configuration name="AccountTest.OwnerCanWithdraw$100FromWalletWith$50" configurationId="JUnit" />
+    <history-entry file="AccountTest_OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes - 2016.02.18 at 14h 46m 54s.xml">
+      <configuration name="AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountTest_OwnerCanWithdraw$10FromAccountWith$0 - 2016.02.17 at 20h 01m 09s.xml">
+    <history-entry file="AccountTest_OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes - 2016.02.18 at 14h 48m 29s.xml">
+      <configuration name="AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes - 2016.02.18 at 14h 48m 48s.xml">
+      <configuration name="AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes - 2016.02.18 at 14h 48m 56s.xml">
+      <configuration name="AccountTest.OwnerCanOverWithdrawMultipleTimesGetNotifiedMultipleTimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_OwnerCanWithdraw$10FromAccountWith$0 - 2016.02.18 at 14h 35m 50s.xml">
       <configuration name="AccountTest.OwnerCanWithdraw$10FromAccountWith$0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_OwnerCanWithdraw$10FromAccountWith$0 - 2016.02.17 at 20h 01m 20s.xml">
-      <configuration name="AccountTest.OwnerCanWithdraw$10FromAccountWith$0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_OwnerCanWithdraw$10FromAccountWith$0 - 2016.02.18 at 09h 32m 18s.xml">
-      <configuration name="AccountTest.OwnerCanWithdraw$10FromAccountWith$0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_ifNoticicationFailsthrowException - 2016.02.17 at 19h 56m 25s.xml">
-      <configuration name="AccountTest.ifNoticicationFailsthrowException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -656,7 +673,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -665,15 +682,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33061224" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30857143" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31734693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1959707" sideWeight="0.4961905" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19107144" sideWeight="0.4961905" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22071429" sideWeight="0.5038095" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -694,18 +711,18 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35544553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33061224" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31734693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23170732" sideWeight="0.4961905" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1959707" sideWeight="0.4961905" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22071429" sideWeight="0.5038095" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -794,10 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NegativeMoneyInputException.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/rules/ExpectedException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.14975041">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -810,6 +827,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NotificationFailedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Notifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -818,18 +854,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/NegativeMoneyInputException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7563694">
-          <caret line="112" column="69" selection-start-line="112" selection-start-column="69" selection-end-line="112" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.64810926">
+          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
